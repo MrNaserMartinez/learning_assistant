@@ -1,0 +1,177 @@
+{
+  "usuarios": {
+    "user_1": {
+      "nombre": "Naser",
+      "nivel": "intermedio",
+      "intereses": [
+        "ingles"
+      ],
+      "fecha_registro": "2025-05-28"
+    },
+    "user_2": {
+      "nombre": "Blanky",
+      "nivel": "principiante",
+      "intereses": [
+        "matematicas"
+      ],
+      "fecha_registro": "2025-05-28"
+    },
+    "user_3": {
+      "nombre": "Daniel",
+      "nivel": "avanzado",
+      "intereses": [
+        "matematica"
+      ],
+      "fecha_registro": "2025-05-28"
+    },
+    "user_4": {
+      "nombre": "Daniel",
+      "nivel": "avanzado",
+      "intereses": [
+        "ingles"
+      ],
+      "fecha_registro": "2025-05-28"
+    }
+  },
+  "planes": {
+    "plan_1": {
+      "usuario_id": "user_1",
+      "tema": "ingles",
+      "objetivos": [
+        "Aprender ingles",
+        "Practicar ingles",
+        "Dominar ingles"
+      ],
+      "recursos": [
+        "Cursos de ingles",
+        "Libros de ingles",
+        "Práctica de ingles"
+      ],
+      "progreso": 16,
+      "fecha_creacion": "2025-05-28",
+      "fecha_limite": "2025-06-02"
+    },
+    "plan_2": {
+      "usuario_id": "user_1",
+      "tema": "python",
+      "objetivos": [
+        "Dominar funciones",
+        "Trabajar con archivos",
+        "Usar librerías"
+      ],
+      "recursos": [
+        "Curso online",
+        "Libro Python Crash Course",
+        "Ejercicios"
+      ],
+      "progreso": 0,
+      "fecha_creacion": "2025-05-28",
+      "fecha_limite": "2025-06-27"
+    },
+    "plan_3": {
+      "usuario_id": "user_2",
+      "tema": "ingles",
+      "objetivos": [
+        "Aprender ingles",
+        "Practicar ingles",
+        "Dominar ingles"
+      ],
+      "recursos": [
+        "Cursos de ingles",
+        "Libros de ingles",
+        "Práctica de ingles"
+      ],
+      "progreso": 5,
+      "fecha_creacion": "2025-05-28",
+      "fecha_limite": "2025-07-02"
+    },
+    "plan_4": {
+      "usuario_id": "user_3",
+      "tema": "Matematica",
+      "objetivos": [
+        "Aprender Matematica",
+        "Practicar Matematica",
+        "Dominar Matematica"
+      ],
+      "recursos": [
+        "Cursos de Matematica",
+        "Libros de Matematica",
+        "Práctica de Matematica"
+      ],
+      "progreso": 8,
+      "fecha_creacion": "2025-05-28",
+      "fecha_limite": "2025-07-07"
+    }
+  },
+  "sesiones": [
+    {
+      "plan_id": "plan_1",
+      "duracion": 4,
+      "puntuacion": 3.0,
+      "fecha": "2025-05-28",
+      "notas": ""
+    },
+    {
+      "plan_id": "plan_3",
+      "duracion": 50,
+      "puntuacion": 10.0,
+      "fecha": "2025-05-28",
+      "notas": "no"
+    },
+    {
+      "plan_id": "plan_1",
+      "duracion": 50,
+      "puntuacion": 8.0,
+      "fecha": "2025-05-28",
+      "hora": "15:50",
+      "notas": ""
+    },
+    {
+      "plan_id": "plan_4",
+      "duracion": 120,
+      "puntuacion": 10,
+      "fecha": "2025-05-28",
+      "hora": "15:57",
+      "notas": ""
+    },
+    {
+      "plan_id": "plan_1",
+      "duracion": 130,
+      "puntuacion": 10,
+      "fecha": "2025-05-28",
+      "hora": "16:01",
+      "notas": "nitido"
+    }
+  ],
+  "puntos": {
+    "user_1": 58,
+    "user_3": 52,
+    "user_4": 0
+  },
+  "logros": {
+    "user_1": [
+      "maraton"
+    ],
+    "user_3": [
+      "maraton"
+    ],
+    "user_4": []
+  },
+  "rachas": {
+    "user_1": {
+      "actual": 1,
+      "maxima": 1,
+      "ultima_fecha": "2025-05-28"
+    },
+    "user_3": {
+      "actual": 1,
+      "maxima": 1,
+      "ultima_fecha": "2025-05-28"
+    },
+    "user_4": {
+      "actual": 0,
+      "maxima": 0,
+      "ultima_fecha": null
+    }
+  }
+}
