@@ -31,6 +31,14 @@
         "ingles"
       ],
       "fecha_registro": "2025-05-28"
+    },
+    "user_5": {
+      "nombre": "Naser",
+      "nivel": "avanzado",
+      "intereses": [
+        "matematicas"
+      ],
+      "fecha_registro": "2025-05-30"
     }
   },
   "planes": {
@@ -146,7 +154,8 @@
   "puntos": {
     "user_1": 58,
     "user_3": 52,
-    "user_4": 0
+    "user_4": 0,
+    "user_5": 0
   },
   "logros": {
     "user_1": [
@@ -155,7 +164,8 @@
     "user_3": [
       "maraton"
     ],
-    "user_4": []
+    "user_4": [],
+    "user_5": []
   },
   "rachas": {
     "user_1": {
@@ -169,6 +179,11 @@
       "ultima_fecha": "2025-05-28"
     },
     "user_4": {
+      "actual": 0,
+      "maxima": 0,
+      "ultima_fecha": null
+    },
+    "user_5": {
       "actual": 0,
       "maxima": 0,
       "ultima_fecha": null

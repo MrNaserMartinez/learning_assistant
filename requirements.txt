@@ -1,0 +1,2 @@
+# Solo lo esencial para MCP
+mcp>=1.0.0
